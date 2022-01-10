@@ -1,6 +1,11 @@
 @media all and (min-width: 768px) and (max-width: 992px) {
 
 
+    a.main:focus a.main:active {
+        color: #0065FC;
+        border-top-color: #0065FC;
+    }
+
     .container .filters-wrap {
         display: -ms-flexbox;
         display: flex;
@@ -223,12 +228,12 @@
         text-align: center;
         margin-bottom: 50px;
     }
-    
+
     a.main:focus a.main:active {
         color: #0065FC;
         border-bottom-color: #0065FC;
     }
-    
+
 
     a.main:hover {
         color: #0065FC;

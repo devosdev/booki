@@ -136,6 +136,11 @@ a.main:hover {
     padding-top: 48px;
 }
 
+a.main:focus a.main:active {
+        color: #0065FC;
+        border-top-color: #0065FC;
+    }
+
 .container {
     margin-left: 40px;
 }
